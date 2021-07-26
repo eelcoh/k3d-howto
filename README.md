@@ -264,7 +264,7 @@ That is it. Delete your cluster to clean up:
 $ k3d delete cluster play
 ```
 ## What's next
-Now you've seen how to create a Kubernetes cluster, you may want to dive into that other big thing, the Service Mesh. Try to get Istio running on this cluster, and inspect it with Kalio..
+Now you've seen how to create a Kubernetes cluster, you may want to dive into that other big thing, the Service Mesh. Try to get Istio running on this cluster, and inspect it with Kiali.
 
 ## Attribution
 I did not make this all up. I used multiple sources, and combined these into a sinle story. Most notably:
