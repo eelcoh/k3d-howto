@@ -173,7 +173,7 @@ spec:
 
 Run it:
 ```
-$ kubectl apply -f kuard-ingress.yaml.
+$ kubectl apply -f kuard-ingress.yaml
 ```
 
 > Although - or perhaps because - the Ingress is a standard Kubernetes resource, it is rather limited. Contour implements the Ingress, but next to that it also implements its own custom HTTPProxy resource, which is much richer and comes with a comprehensive set of optiions. Read more about it here: https://projectcontour.io/docs/main/config/fundamentals/
